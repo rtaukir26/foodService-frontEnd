@@ -1,0 +1,100 @@
+.login_main_container {
+  background-image: url("../../assets/images/bg/bg2.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body_wrapper {
+  height: 100%;
+  padding-top: 20px;
+}
+.welcome_con {
+  text-align: center;
+  h1 {
+    font-weight: 400;
+    color: #fff;
+  }
+  p {
+    color: #fff;
+    font-weight: 300;
+  }
+}
+
+.login_box {
+  display: grid;
+  place-items: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 3px;
+  height: 80%;
+
+  form {
+    width: 70%;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px #fff, 0 0px 6px black, 0 0px 5px blue;
+    text-align: center;
+    .inputGroup {
+      position: relative;
+      margin-top: 10px;
+    }
+
+    input {
+      padding: 10px;
+      width: 100%;
+      border-radius: 3px;
+      outline: none;
+      border-bottom: 1px solid #ddd;
+      border: none;
+      //   background-image: linear-gradient(45deg, #8b1e1e, #483b8b8a);
+      background: transparent;
+
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: #fdfdfd;
+
+      border-bottom: 2px solid transparent;
+      border-image: linear-gradient(to right, red, yellow) 1;
+
+      //   border-width: 5px; /* Adjust the border width as needed */
+      //   border-style: solid; /* Set the border style */
+      //   border-image: radial-gradient(circle, red, yellow, blue) 1;
+      &::placeholder {
+        color: #f8f8f8ea;
+        font-weight: bold;
+      }
+    }
+    img {
+      position: absolute;
+      right: 10px;
+      top: 15%;
+    }
+    span {
+      font-size: 13px;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      small {
+        &:last-child {
+          margin-left: 10px;
+          border-left: 1px solid #fff;
+          padding-left: 10px;
+        }
+      }
+    }
+    .registerBtn {
+      display: block;
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 14px;
+      background: #ffffff;
+      border: none;
+      border-radius: 3px;
+      width: 130px;
+      float: left;
+      cursor: pointer;
+    }
+  }
+}
