@@ -1,0 +1,21 @@
+.sidebar_main_container {
+  width: 15%;
+  background: #002748;
+  .sidebar_body {
+    .main_ul {
+      list-style: none;
+      li {
+        color: #fff;
+        cursor: pointer;
+      }
+      ul {
+        list-style: none;
+        li {
+          margin: 5px;
+          font-size: 15px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

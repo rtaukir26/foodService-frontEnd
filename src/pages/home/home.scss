@@ -1,0 +1,30 @@
+.home_main_container {
+  background-image: url("../../assets/images/bg/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100vh;
+  padding-top: 15px;
+  overflow: auto;
+}
+
+.home_body {
+  display: flex;
+  padding: 15px;
+  .body {
+    width: 85%;
+    padding-left: 10px;
+    .card_con {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .card {
+      border: 1px solid;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
